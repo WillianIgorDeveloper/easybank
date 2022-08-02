@@ -63,6 +63,14 @@ html {
         margin: 1rem 0;
     }
 
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
     p {
         margin: 1rem 0;
         font-weight: 300;
@@ -78,7 +86,7 @@ html {
     }
 }
 .container {
-    padding: 1.5rem;
+    padding: 2rem;
 }
 
 
@@ -147,7 +155,20 @@ html {
     background-image: url('../assets/icons/bg-intro-mobile.svg');
     background-repeat: no-repeat;
     background-size: contain;
-    padding-top: 4rem;
+    padding: 4rem 0;
+}
+
+
+/*========== About ==========*/
+.about {
+    text-align: center;
+    background-color: var(--gray);
+    padding: 4rem 0;
+
+    img {
+        width: 30%;
+        margin: 2rem 0;
+    }
 }
 
 
