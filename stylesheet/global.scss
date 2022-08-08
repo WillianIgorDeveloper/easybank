@@ -212,5 +212,18 @@ html {
 }
 
 
-/*========== # ==========*/
-    /*===== # =====*/
+/*========== Contact ==========*/
+.contact {
+    background-color: var(--blue-200);
+    text-align: center;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    img {
+    }
+}
