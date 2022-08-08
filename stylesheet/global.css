@@ -133,12 +133,44 @@ html button {
 /*========== About ==========*/
 .about {
   text-align: center;
-  background-color: var(--gray);
+  background-color: var(--blue-50);
   padding: 4rem 0;
 }
 .about img {
   width: 30%;
   margin: 2rem 0;
+}
+
+/*========== Blog ==========*/
+.blog {
+  gap: 2rem;
+  padding: 4rem 0;
+  background-color: var(--white);
+}
+.blog .container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.blog h2 {
+  text-align: center;
+}
+.blog article {
+  background-color: var(--gray);
+  border-radius: 12px;
+}
+.blog article img {
+  border-radius: 12px 12px 0 0;
+}
+.blog article .text-container {
+  padding: 1rem;
+}
+.blog article .text-container span {
+  color: var(--blue-100);
+  font-size: 0.75rem;
+}
+.blog article .text-container h3 {
+  margin: 0.75rem 0;
 }
 
 /*========== # ==========*/
